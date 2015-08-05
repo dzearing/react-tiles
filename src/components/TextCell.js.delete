@@ -1,0 +1,25 @@
+'use strict';
+
+var React = require('react/addons');
+
+// CSS
+require('./TextCell.css');
+
+var TextCell = React.createClass({
+
+  render: function() {
+    return (
+      <span className="TextCell">{ this.props.text }></span>
+    );
+  },
+
+  getDefaultProps: function() {
+    return {
+      text: ''
+    };
+  }
+
+});
+
+module.exports = TextCell;
+

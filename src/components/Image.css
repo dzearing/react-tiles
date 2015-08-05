@@ -1,0 +1,17 @@
+.Image-clipBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.Image {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.Image.isLoaded {
+    opacity: 1;
+    transition: opacity .5s linear;
+}

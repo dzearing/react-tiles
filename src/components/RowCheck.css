@@ -1,0 +1,63 @@
+.RowCheck {
+    display: inline-block;
+    cursor: default;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.RowCheck-image {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 20px;
+}
+
+.RowCheck:hover.RowCheck--isUnchecked .RowCheck-image {
+    left: -40px;
+}
+
+.RowCheck--isChecked .RowCheck-image {
+    left: -60px;
+}
+
+/*
+.RowCheck {
+    display: inline-block;
+    cursor: default;
+    line-height: 0;
+    vertical-align: top;
+}
+
+.RowCheck-circle {
+    fill: none;
+}
+
+.RowCheck-check {
+    stroke: none;
+}
+
+
+.RowCheck:hover .RowCheck-circle {
+    fill: white;
+    stroke: #c8c8c8;
+}
+
+.RowCheck:hover .RowCheck-check {
+    stroke: #c8c8c8;
+}
+
+.RowCheck:hover.RowCheck--isChecked .RowCheck-circle,
+.RowCheck--isChecked .RowCheck-circle {
+    fill: #3a96dd;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.RowCheck:hover.RowCheck--isChecked .RowCheck-check,
+.RowCheck--isChecked .RowCheck-check {
+    stroke: white;
+}
+
+*/

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Segoe UI";
+    src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI/3ca1af51-981a-4e1c-b9c6-a66d0a5fe3c0-3.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI Light";
+    src: url("http://cdn-resources.windowsphone.com/Resources/Fonts/Apollo/SegoeUI-webfonts-WestEuropean/Segoe-UI-Light/45a13f65-5199-4a22-821e-9b7d7795518e-3.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+html, body {
+    -webkit-user-select: none;
+    font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,sans-serif;
+}
+
+.main {
+  padding: 10px;
+}
+
+.cell {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 4px;
+}

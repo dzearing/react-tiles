@@ -1,0 +1,96 @@
+.ItemTileNameplate {
+    background-color: #094ab2;
+    color: #fff;
+    border-top: 1px solid #fff;
+    padding: 4px 8px 8px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 20px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ItemTileNameplate::before {
+    right: 0;
+    padding-left: 1px;
+    content: '';
+    position: absolute;
+    width: 32%;
+    height: 16px;
+    border-top: 1px solid #fff;
+    top: -16px;
+    background: #094ab2;
+    overflow: hidden;
+}
+
+.ItemTileNameplate-beak {
+    right: 32%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -16px;
+    overflow: hidden;
+}
+
+.ItemTileNameplate-beak::before {
+    right: -19px;
+    content: '';
+    position: absolute;
+    top: 1px;
+    width: 20px;
+    height: 30px;
+    background-color: #094ab2;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.ItemTileNameplate-beakHighlight {
+    right: 32%;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -16px;
+    overflow: hidden;
+}
+
+.ItemTileNameplate-beakHighlight::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 30px;
+    right: 0;
+    background-color: #fff;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+.ItemTileNameplate-name {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.ItemTileNameplate-childCount {
+    left: 68%;
+    position: absolute;
+    top: -14px;
+    padding: 0 3px;
+    font-size: 11px;
+}
+
+.ItemTileNameplate-subText {
+    font-size: 11px;
+    opacity: .7;
+}

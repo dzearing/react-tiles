@@ -1,0 +1,60 @@
+.DetailsRow {
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+    font-size: 13px;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.DetailsRow--isSelected {
+    background-color: #d7eaf9;
+}
+
+.DetailsRow:hover {
+    background-color: #e6f2fb;
+}
+
+.DetailsRow-icon {
+    display: inline-block;
+    max-width: 16px;
+    max-height: 16px;
+    margin-right: 4px;
+    vertical-align: sub;
+}
+
+.DetailsRow:hover.DetailsRow--isSelected {
+    background-color: #beddf4;
+}
+
+.DetailsRow .RowCheck {
+    margin: 7px;
+}
+
+.DetailsRow:hover .RowCheck--isUnchecked .RowCheck-image {
+    left: -20px;
+}
+
+.RowCheck:hover.RowCheck--isUnchecked .RowCheck-image {
+    left: -40px;
+}
+
+.DetailsRow-cell {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.DetailsRow-cell a {
+    color: black;
+    text-decoration: none;
+}
+
+.DetailsRow-cell a:hover {
+    text-decoration: underline;
+}
